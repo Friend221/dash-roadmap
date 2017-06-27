@@ -89,7 +89,7 @@ We would also like to announce the creation of a new team to be centered in Hong
 - Fiat / Credit card support from within wallet, seamless design <sup>[27](#f27)</sup>
 - Unofficial Evolution wallets with custom features <sup>[23](#f23)</sup>
 - Evolution marketplace / Add-ons / Rating system <sup>[25](#f25)</sup>
-- Hardened entropy-based wallet seeding system <sup>[18](#f18)</sup>
+- Hardened entropy-based wallet seeding system <sup>[19](#f19)</sup>
 - Collateralized mining <sup>[12](#f12)</sup>
 
 # 15.0 - Evolution v3 (TBD)
@@ -106,7 +106,7 @@ We would also like to announce the creation of a new team to be centered in Hong
 
 # 16+ - TBD
 - Complete end-to-end open source masternode hardware / with custom silicon for processing high volumes of payments and other information. Important for maintaining exploit free hardware systems. 
-- Fully open source / ahead-of-curve solutions for ASIC creation, allowing fair distribution and removing proprietary individual investment which creates imbalances in mining hardware <sup>[19](#f19)</sup>
+- Fully open source / ahead-of-curve solutions for ASIC creation, allowing fair distribution and removing proprietary individual investment which creates imbalances in mining hardware <sup>[20](#f20)</sup>
 - v16 - 42.68MB 512TX/S
 - v17 - 85.36MB 1024TX/S
 - v18 - 170.72MB 2048TX/S 
