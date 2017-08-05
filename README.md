@@ -56,10 +56,10 @@ We would also like to announce the creation of a new team to be centered in Hong
 # 13.0 - Evolution v1 - Mainnet (June 2018)
 - Public DashPay, DAPI, DashDrive, DashCore v13.0 release
 - Fourth Hiring Wave - Full-time developers
-- 500K daily-users supported <sup>[22](#f22)</sup>
+- 500K daily-users supported <sup>[21](#f21)</sup>
 - Ethernet networking requirement <sup>[15](#f15)</sup>
 - 1TB HDD / 128GB SSD Req <sup>[8](#f8)</sup> <sup>[9](#f9)</sup>
-- 64TX/SEC && 5.33MB blocks <sup>[16](#f16)</sup> <sup>[20](#f20)</sup> <sup>[21](#f21)</sup>
+- 64TX/SEC && 5.33MB blocks <sup>[16](#f16)</sup> <sup>[19](#f19)</sup> <sup>[20](#f20)</sup>
 - Quorum-based DAPI implementation <sup>[4](#f4)</sup>
 - Proof of service / Proof of blockchain
 - Governance object support for users, groups, accounts
@@ -82,14 +82,14 @@ We would also like to announce the creation of a new team to be centered in Hong
 - Ability to move money between public and private accounts <sup>[5](#f5)</sup>
 - DashDrive v2 <sup>[3](#f3)</sup>
 - Governance objects for multi-user accounts (multisig)
-- Masternode redundancy planning <sup>[26](#f26)</sup>
+- Masternode redundancy planning <sup>[25](#f25)</sup>
 - Third-party add-ons for customer DAPI objects / wallet schema versioning
 - Automatic form filling for delivery addresses using encrypted blobs
 - External storage support to offload blob storage for payment request history and other information 
-- Fiat / Credit card support from within wallet, seamless design <sup>[27](#f27)</sup>
-- Unofficial Evolution wallets with custom features <sup>[23](#f23)</sup>
-- Evolution marketplace / Add-ons / Rating system <sup>[25](#f25)</sup>
-- Hardened entropy-based wallet seeding system <sup>[19](#f19)</sup>
+- Fiat / Credit card support from within wallet, seamless design <sup>[26](#f26)</sup>
+- Unofficial Evolution wallets with custom features <sup>[22](#f22)</sup>
+- Evolution marketplace / Add-ons / Rating system <sup>[24](#f24)</sup>
+- Hardened entropy-based wallet seeding system <sup>[18](#f18)</sup>
 - Collateralized mining <sup>[12](#f12)</sup>
 
 # 15.0 - Evolution v3 (TBD)
@@ -106,7 +106,7 @@ We would also like to announce the creation of a new team to be centered in Hong
 
 # 16+ - TBD
 - Complete end-to-end open source masternode hardware / with custom silicon for processing high volumes of payments and other information. Important for maintaining exploit free hardware systems. 
-- Fully open source / ahead-of-curve solutions for ASIC creation, allowing fair distribution and removing proprietary individual investment which creates imbalances in mining hardware <sup>[20](#f20)</sup>
+- Fully open source / ahead-of-curve solutions for ASIC creation, allowing fair distribution and removing proprietary individual investment which creates imbalances in mining hardware <sup>[19](#f19)</sup>
 - v16 - 42.68MB 512TX/S
 - v17 - 85.36MB 1024TX/S
 - v18 - 170.72MB 2048TX/S 
@@ -130,15 +130,14 @@ Footnotes
 <br /><a name="f14">14</a>: X11 hashing, quorum selection, sha/crypto transaction processing and other common functions available via custom hardware allowing for higher network security and higher transaction support
 <br /><a name="f15">15</a>: System requires highly interconnected second-tier network with co-located ethernet handoff. VPS co-location should be suffient for first evo release.
 <br /><a name="f16">16</a>: Upgrade to 5MB blocks doesn't require specialized hardware.
-<br /><a name="f17">17</a>: Base two log-linear growth model, based on mathematically model of crypto-sphere economy and historical growth of the space.
-<br /><a name="f18">18</a>: Base two growth model of block sizes beyond this
-<br /><a name="f19">19</a>: Easy to remember way of seeding wallets
-<br /><a name="f20">20</a>: Internal budget-based investments to create low nanometer / high quality ASIC hardware which offers bleeding edge advantage to the market, cutting out any ability for private investment to gain large advantage over other miners. 
-<br /><a name="f21">21</a>: State transitions are calculated to be (200*73*10)*500000/576 bytes, per block, increasing blocksize by 807291 bytes each block, 17% of the total blocksize. 
-<br /><a name="f22">22</a>: Tier-2 conceptually is able to handle much larger block propagation, due to having much higher quality network connections. We plan on having large farms of co-located servers, eventually connected using ethernet hand-off. Masternodes located in the same facility can be used for local syncing, allowing more rapid propagation of blocks to catch new servers up. Tier-1 remains permissionless, but also becomes vastly more expensive. Processing of blocks uses custom hardware, allowing for us to process transaction/transition signatures in a parallelized way. 
-<br /><a name="f23">23</a>: 868 transactions per block, if assumed 1 transaction per day, per user (lots of assumptions // we need more data). (5TX/SEC + 2TS/SEC)
-<br /><a name="f24">24</a>: Second-generation Evolution wallets are software based wallets which expand the object schema to allow internal wallet-to-wallet custom relationships for custom applications such as allowing businesses to have custom wallets for their application. This will allow streamlined applications with easy to use features within subsets of the whole dash economy. 
-<br /><a name="f25">25</a>: DashDrive object writes require fees for each object written to the system. The system is designed to use an initial burn of coins, which create a small credit that is tracked in the system, debits are introduced for each operation that is done in relation to Evolution.
-<br /><a name="f26">26</a>: Using specialized state transition for maintenance functions Each component of masternode will run redundantly under a load balancer to allow for individual component failure without causing a cascade which creates an outage 
-<br /><a name="f27">27</a>: Using third party API keys, allowing user to setup keys in settings then use from wallet seamlessly without ever leaving Dash. 
-<br /><a name="f28">28</a>: By leveraging dapi and third party tools, we can deploy addons and a marketplace, which allows custom third party services to integrate directly in the wallet such as debit/credit cards and fiat bank account support 
+<br /><a name="f17">17</a>: Base two log-linear growth model, based on mathematically model of crypto-sphere economy and historical growth of the space. Also possible base two growth model of block sizes beyond this
+<br /><a name="f18">18</a>: Easy to remember way of seeding wallets
+<br /><a name="f19">19</a>: Internal budget-based investments to create low nanometer / high quality ASIC hardware which offers bleeding edge advantage to the market, cutting out any ability for private investment to gain large advantage over other miners. 
+<br /><a name="f20">20</a>: State transitions are calculated to be (200*73*10)*500000/576 bytes, per block, increasing blocksize by 807291 bytes each block, 17% of the total blocksize. 
+<br /><a name="f21">21</a>: Tier-2 conceptually is able to handle much larger block propagation, due to having much higher quality network connections. We plan on having large farms of co-located servers, eventually connected using ethernet hand-off. Masternodes located in the same facility can be used for local syncing, allowing more rapid propagation of blocks to catch new servers up. Tier-1 remains permissionless, but also becomes vastly more expensive. Processing of blocks uses custom hardware, allowing for us to process transaction/transition signatures in a parallelized way. 
+<br /><a name="f22">22</a>: 868 transactions per block, if assumed 1 transaction per day, per user (lots of assumptions // we need more data). (5TX/SEC + 2TS/SEC)
+<br /><a name="f23">23</a>: Second-generation Evolution wallets are software based wallets which expand the object schema to allow internal wallet-to-wallet custom relationships for custom applications such as allowing businesses to have custom wallets for their application. This will allow streamlined applications with easy to use features within subsets of the whole dash economy. 
+<br /><a name="f24">24</a>: DashDrive object writes require fees for each object written to the system. The system is designed to use an initial burn of coins, which create a small credit that is tracked in the system, debits are introduced for each operation that is done in relation to Evolution.
+<br /><a name="f25">25</a>: Using specialized state transition for maintenance functions Each component of masternode will run redundantly under a load balancer to allow for individual component failure without causing a cascade which creates an outage 
+<br /><a name="f26">26</a>: Using third party API keys, allowing user to setup keys in settings then use from wallet seamlessly without ever leaving Dash. 
+<br /><a name="f27">27</a>: By leveraging dapi and third party tools, we can deploy addons and a marketplace, which allows custom third party services to integrate directly in the wallet such as debit/credit cards and fiat bank account support 
